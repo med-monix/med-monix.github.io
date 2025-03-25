@@ -10,12 +10,12 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	site: 'https://blog-template-gray.vercel.app/', // Write here your website url
-	author: 'Your Name', // Site author
-	title: 'Astro Theme OpenBlog', // Site title.
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
+	site: 'https://medmonix.netlify.app/', // Write here your website url
+	author: 'Nadia Blostein', // Site author
+	title: 'Medmonix', // Site title.
+	description: 'A cervix helix of medical mnemonics', // Description to display in the meta tags
 	lang: 'en-GB',
 	ogLocale: 'en_GB',
-	shareMessage: 'Share this post', // Message to share a post on social media
+	shareMessage: 'Share this medmonic', // Message to share a post on social media
 	paginationSize: 6 // Number of posts per page
 }
