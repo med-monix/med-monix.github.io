@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84101104-ffb6-426a-a145-dfead0cf9fdb/deploy-status)](https://app.netlify.com/sites/medmonix/deploys)
+
 <div align="center">
 
 <img src="public/project.png" alt="Screenshot" />
