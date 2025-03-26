@@ -4,9 +4,14 @@ import { siteConfig } from '@/site-config'
 const today = new Date()
 ---
 
-<footer class='flex justify-center items-center w-full px-16 h-28 border-t-2'>
-	<p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="height:30px;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png"></a></p>
-	<br>
-	&copy; {today.getFullYear()}
-	{siteConfig.author}. All rights reserved.
+<footer class='flex flex-col justify-center items-center w-full px-16 h-28 border-t-2 text-center'>
+	<p>
+		<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+			<img style="height:30px;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png" alt="Creative Commons License">
+		</a>
+	</p>
+	<p>
+		&copy; {today.getFullYear()} {siteConfig.author}. All rights reserved.
+	</p>
 </footer>
+
