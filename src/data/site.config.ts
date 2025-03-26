@@ -10,7 +10,7 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	site: 'https://medmonix.netlify.app/', // Write here your website url
+	site: 'https://medmonix.com', // Write here your website url
 	author: 'Nadia Blostein', // Site author
 	title: 'Medmonix', // Site title.
 	description: 'A cervix helix of medical mnemonics', // Description to display in the meta tags
