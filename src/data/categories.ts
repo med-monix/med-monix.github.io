@@ -1,8 +1,13 @@
 // List of categories for blog posts
 export const CATEGORIES = [
-	'By Organ System🫁',
-	'Category 2',
-	'Category 3',
-	'Category 4',
-	'Category 5'
+	'Cardio 🫀',
+	'Resp 🫁',
+	'Neuro 🧠',
+	'Endo 🧪',
+	'GI 🍕',
+	'Hema 🩸',
+	'MSK 💪',
+	'Psych 😵‍💫',
+	'Renal 🧂',
+	'Repro 🤰'
 ] as const
