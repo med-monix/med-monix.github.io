@@ -9,5 +9,6 @@ export const CATEGORIES = [
 	'MSK 💪',
 	'Psych 😵‍💫',
 	'Renal 🧂',
-	'Repro 🤰'
+	'Repro 🤰',
+	'TEMPLATES'
 ] as const

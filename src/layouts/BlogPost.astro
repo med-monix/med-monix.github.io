@@ -14,7 +14,7 @@ type Props = {
 }
 
 const { data, readTime, headings, id } = Astro.props
-const { title, description, pubDate, heroImage, tags } = data
+const { title, description, pubDate, contributor, medmonicSource, imageSource, heroImage, tags } = data
 
 const articleDate = pubDate.toISOString()
 ---
@@ -62,6 +62,27 @@ const articleDate = pubDate.toISOString()
 				)
 			}
 		</>
+
+		<header class='mb-3 flex flex-col justify-center items-center gap-6'>
+			<div class='flex flex-col gap-2'>
+				<div class='flex items-center justify-center gap-x-1'>
+					<p class='text-center text-sm text-opacity-50'>
+						contributor: {contributor}
+					</p>
+					<p class='text-center text-sm text-opacity-50 font-bold'>
+						- medmonic source: {medmonicSource}
+					</p>
+					<p class='text-center text-sm text-opacity-50 font-bold'>
+						- image source: {imageSource}
+					</p>
+				</div>
+			</div>
+
+			<div class='flex flex-wrap justify-center items-center gap-2 gap-y-4 md:gap-5'>
+				{tags.map((tag) => <Tag tag={tag} />)}
+			</div>
+		</header>
+
 
 		<hr />
 
